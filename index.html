@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Election Results Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Election Results Dashboard</h1>
+    </header>
+    <section class="add-candidate">
+        <h2>Add Candidate</h2>
+        <input type="text" id="candidate-name" placeholder="Candidate Name">
+        <input type="number" id="candidate-votes" placeholder="Candidate Votes">
+        <button id="add-candidate-btn">Add Candidate</button>
+    </section>
+    <section class="results">
+        <h2>Election Results</h2>
+        <div class="candidates">
+        </div>
+    </section>
+    <section class="summary">
+        <h2>Election Summary</h2>
+        <div class="summary-content">
+            <p>Total Votes: <span id="total-votes">0</span></p>
+            <p>Winner: <span id="winner">TBD</span></p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

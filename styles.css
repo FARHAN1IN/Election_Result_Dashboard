@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: rgb(93, 164, 185);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+.results {
+    background-color: rgb(206, 133, 133);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.candidates {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.candidate-card {
+    background-color: #74c5c5;
+    padding: 10px;
+    border-radius: 5px;
+    flex: 1;
+    min-width: 200px;
+}
+
+.summary {
+    background-color: rgb(194, 89, 124);
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.summary-content {
+    text-align: center;
+}
+
